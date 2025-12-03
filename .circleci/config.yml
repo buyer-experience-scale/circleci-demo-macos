@@ -4,6 +4,7 @@ jobs: # a basic unit of work in a run
   test: # your job name
     macos:
       xcode: 14.1.0 # indicate our selected version of Xcode
+    resource_class: m4pro.medium
     steps: # a series of commands to run
       - checkout  # pull down code from your version control system.
       - run:
